@@ -1,7 +1,9 @@
+import EvenOdd from "./pages/230228";
+
 function App() {
   return (
     <div>
-      <p>test</p>
+      <EvenOdd />
     </div>
   );
 }
