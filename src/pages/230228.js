@@ -7,9 +7,4 @@ num은 int 범위의 정수입니다.
 0은 짝수입니다.
 */
 
-function EvenOdd() {
-  const solution = (num) => (num % 2 === 0 ? "Even" : "Odd");
-  return solution();
-}
-
-export default EvenOdd;
+export default (num) => (num % 2 === 0 ? "Even" : "Odd");
